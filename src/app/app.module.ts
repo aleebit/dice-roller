@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { DieRollerComponent } from './die-roller/die-roller.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DieRollerComponent
   ],
   imports: [
     BrowserModule
