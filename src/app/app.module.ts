@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DieRollerComponent } from './die-roller/die-roller.component';
+import { RollHistoryComponent } from './roll-history/roll-history.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DieRollerComponent
+    DieRollerComponent,
+    RollHistoryComponent
   ],
   imports: [
     BrowserModule
