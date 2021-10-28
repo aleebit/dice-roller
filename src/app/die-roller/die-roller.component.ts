@@ -12,4 +12,13 @@ export class DieRollerComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  sideCount = "6";
+
+  rollValue = 6;
+
+  roll = () => {
+    this.rollValue = Math.floor(Math.random() *6) + 1;
+
+  };
+
 }
