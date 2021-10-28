@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RollHistoryService } from '../roll-history.service';
 
 @Component({
   selector: 'app-roll-history',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RollHistoryComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public rhSvc: RollHistoryService
+  ) {}
 
   ngOnInit(): void {
   }

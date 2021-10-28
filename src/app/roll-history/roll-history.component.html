@@ -1,1 +1,8 @@
-<p>roll-history works!</p>
+<ul>
+<li
+*ngFor="let rh of rhSvc.rollHistory"
+>
+    D{{ rh.sideCount}} - {{ rh.rollValue }}
+</li>
+
+</ul>
