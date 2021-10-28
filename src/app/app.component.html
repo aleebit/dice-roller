@@ -1,11 +1,13 @@
 <app-die-roller
     side-count = "6"
+    (die-rolled)="dieRolled($event)"
 >
 
 </app-die-roller>
 <br>
 <app-die-roller
-side-count="20"
->
+    side-count="20"
+    (die-rolled)="dieRolled($event)"
+    >
     
 </app-die-roller>

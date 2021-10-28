@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dice-roller';
+
+  dieRolled = (rollValue: number) => {
+    console.log(rollValue);
+  };
 }
